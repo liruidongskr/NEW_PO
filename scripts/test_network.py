@@ -18,3 +18,8 @@ class TestNetwork:
         self.network_page.click_move()
         self.network_page.click_typeNet()
         self.network_page.click_3G()
+
+    def test_neteork_4g(self):
+        self.network_page.click_move()
+        self.network_page.click_typeNet()
+        self.network_page.click_3G()
